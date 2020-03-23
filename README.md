@@ -13,7 +13,7 @@ def chatEvent(args):
 def controlEvent(args):
     #Handle control events here
 
-r = LetsRobot()
+r = RemoTV()
 r.addOwner("YourRemoUsername")
 r.addRobotKey("YourRobotAPIKey")
 r.addChannel("YourChannel")
